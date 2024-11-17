@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(77, 75, 161);
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    margin: 50px;
+    color:rgb(199, 136, 20) ;
+    text-align: right;
+    font-size: larger;
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(187, 183, 180);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+h1{
+    text-align: left;
+}
+.logo{
+    text-decoration: none;
+    color:blue ;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: small;
+}
+.navigation a{
+    color: rgb(83, 7, 155);
+    font-size: small;
+    font-weight: 400;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+.navigation a:hover{
+    color: rgb(205, 30, 228);
+} 
+
+.header-logo {
+    border-radius: 50%;
+}
